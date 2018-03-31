@@ -1,0 +1,138 @@
+body {
+  background: rgb(204,204,204);
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  width: 21cm;
+  height: 29.7cm; 
+}
+
+hr {
+	width: 90%;
+}
+.content {
+	margin-left: 2.5cm;
+	margin-right: 2cm;
+	font-size: 13px;
+}
+.content th, .content td {
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  padding-top: 1.5cm;
+  padding-bottom: 1cm;
+  padding-left: 2cm;
+}
+.logo-text {
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+}
+.anschrift
+{
+  padding-left: 2cm;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+}
+.anschrift-firma
+{
+  font-size: 10px;
+}
+.anschrift-kunde
+{
+  font-size: 15px;
+}
+.angebotsfeld {
+  padding-left: 6cm;
+  font-size: 20px;
+  font-weight: bold;
+}
+.angebotsfeld1 {
+  padding-left: 6cm;
+  font-size: 15px;
+}
+.angebotsfeld2 {
+  font-size: 15px;
+}
+
+
+.artikel {
+  width: 1cm; 
+}
+.bezeichnung {
+  width: 12.5cm; 
+}
+.menge {
+  width: 0.5cm;
+  text-align: right;
+}
+.einzelpreis {
+  width: 0.5cm;
+  text-align: right;  
+}
+.gesamtpreis {
+  width: 0.5cm;	
+  text-align: right;
+}
+.anmerkung {
+  width: 14.5cm; 
+}
+.anmerkung2 {
+  width: 2cm;
+}
+.eur {
+  width: 1cm;  
+}
+.preis {
+  width: 0.5cm;	
+  text-align: right;
+}
+
+.fußzeile {
+	margin-top:1cm;
+	font-size: 13px;
+}
+.bankverbindung-head {
+  padding-left: 1.5cm;
+  font-weight: bold;
+}
+.bankverbindung {
+  padding-left: 1.5cm;
+}
+.kontakt-head {
+  padding-left: 1.5cm;
+  font-weight: bold;
+}
+.kontakt {
+  padding-left: 1.5cm;
+}
+.inhaber-head {
+  padding-left: 1.5cm;
+  font-weight: bold;
+}
+.inhaber {
+  padding-left: 1.5cm;
+}
+
+
+
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0 0 0cm rgba(0,0,0,0);
+  }
+  .logo {
+	padding-top: 0.5cm;
+  }
+  .next {
+	display:none;
+	margin: 0;
+	box-shadow: 0 0 0 0;
+  }
+}
